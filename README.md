@@ -16,10 +16,7 @@ PART3. Infer expressed genes of subclones
 <br/><br/>
 PART4. DE analysis of subclones (default and alternative mode)
 <br/><br/>
-PART5. (Optional) Infer Single-cell TF motif accessibility using chromVAR (20210108 updated), by default, Roadmap epigenomics DHS (Enhancers) will be used to define CREs
-<br/><br/>
-PART6. (Optional) Infer haplotype-resolved genebody NO (20210108 updated)
-<br/><br/>
+
 Main output
 1. Single-cell level NO table : `result/{SAMPLE}_sort_geneid.txt`
 2. Infer expression probability for each clones : `result_CNN/DNN_train80_output_ypred_clone1_annot.txt`,<br> `result_CNN/DNN_train80_output_ypred_clone2_annot.txt`
@@ -41,7 +38,7 @@ As of now, unix based tools and python packages are expected to be available via
 ## Setup
 1. **Download this pipeline**
 	* git lfs install
-	* git clone https://github.com/jeongdo801/scNOVA.git
+	* git clone https://github.com/jeongdo801/scNOVA_mouse.git
         * install dependencies (see further below)
 2. **Preparation of input files**
 	* Add your single-cell bam and index files (input_bam/*.bam)
